@@ -42,3 +42,30 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+/* 1080px*/
+@media only screen and (max-width: 56.75em) {
+  .navbar {
+    width: 100%;
+  }
+}
+/* 768px*/
+@media only screen and (max-width: 48em) {
+  .navbar {
+    padding: 1rem 0.5rem;
+  }
+  .main-btn {
+    padding: 0.3rem 0.5rem;
+  }
+}
+/* 480px*/
+@media only screen and (max-width: 36.875em) {
+  .navbar {
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .main-btn {
+    padding: 0.8rem 0.5rem;
+  }
+}

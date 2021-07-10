@@ -13,6 +13,7 @@
   flex-direction: column;
   align-items: center;
   width: 45%;
+  padding-bottom: 3rem;
 }
 .section-title {
   font-size: 40px;
@@ -69,4 +70,25 @@
   border: 0;
   cursor: pointer;
   font-size: 16px;
+}
+@media only screen and (max-width: 52.875em) {
+  .section {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 34.875em) {
+  .section {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 25.75em) {
+  .section {
+    width: 100%;
+  }
+  .section-title {
+    font-size: 30px;
+
+    padding: 0.4rem 1rem;
+  }
 }

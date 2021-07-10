@@ -11,6 +11,7 @@
 .footer {
   width: 80%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
 }
@@ -29,4 +30,18 @@
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
+}
+@media only screen and (max-width: 42.75em) {
+  .footer {
+    width: 100%;
+  }
+}
+/* 1080px*/
+@media only screen and (max-width: 36.875em) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer-btn {
+    padding: 0.3rem 0.3rem;
+  }
 }

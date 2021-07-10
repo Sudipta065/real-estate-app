@@ -25,3 +25,13 @@
   font-size: 0.8rem;
   margin: 0.6rem;
 }
+@media only screen and (max-width: 25.75em) {
+  .city-title {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .city-info {
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+  }
+}
