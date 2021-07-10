@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+.img-container {
+  height: 2rem;
+  width: 8rem;
+}
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.sign-up-btn {
+  border: 3px solid #6935fd;
+  background-color: transparent;
+  color: #6935fd;
+  text-decoration: none;
+  padding: 0.3rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main-btn {
+  border: 0;
+  background-color: transparent;
+  color: #272727;
+  text-decoration: none;
+  padding: 0.3rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
