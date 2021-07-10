@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 0.5rem 0.8rem;
+  padding: 1rem 0;
+  width: 100%;
+}
+.city-title {
+  margin-left: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #272727;
+}
+.city-info {
+  margin-right: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #9c9c9c;
+  font-size: 0.8rem;
+}
+.icon-i {
+  font-size: 0.8rem;
+  margin: 0.6rem;
+}
