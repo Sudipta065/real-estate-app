@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+}
+.footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+.footer-title {
+  background-color: transparent;
+  color: #a8a8a8;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-btn {
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: transparent;
+  color: #a8a8a8;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}

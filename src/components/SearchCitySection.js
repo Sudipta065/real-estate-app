@@ -33,6 +33,7 @@ export default class SearchCitySection extends Component {
         })
         .catch((error) => {
           console.log(error);
+          alert(error);
         });
     }
   };
@@ -78,7 +79,9 @@ export default class SearchCitySection extends Component {
               />
             ))}
 
-          {isFetched && searchData.length <= 0 && <h2> No Result </h2>}
+          {isFetched && searchData.length <= 0 && (
+            <h2> No Result. Please Try something Else. </h2>
+          )}
         </div>
       </div>
     );
